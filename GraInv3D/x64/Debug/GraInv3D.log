@@ -1,0 +1,87 @@
+﻿生成启动时间为 2019/1/9/周三 19:29:56。
+     1>项目“C:\Users\Administrator\Desktop\GraInv3D\GraInv3D\GraInv3D.vcxproj”在节点 2 上(Build 个目标)。
+     1>AddCudaCompileDeps:
+         D:\programyuan\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" /I. /FIcuda_runtime.h /c C:\Users\Administrator\Desktop\GraInv3D\GraInv3D\kernel.cu 
+     1>项目“C:\Users\Administrator\Desktop\GraInv3D\GraInv3D\GraInv3D.vcxproj”(1)正在节点 2 上生成“C:\Users\Administrator\Desktop\GraInv3D\GraInv3D\GraInv3D.vcxproj”(1:2) (CudaBuildCore 个目标)。
+     1>CudaBuildCore:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\Administrator\AppData\Local\Temp\tmp5f48495b33fc46ce95b210c58d38b2d4.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "D:\programyuan\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc120.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Administrator\Desktop\GraInv3D\GraInv3D\kernel.cu"
+         
+         C:\Users\Administrator\Desktop\GraInv3D\GraInv3D>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "D:\programyuan\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc120.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Administrator\Desktop\GraInv3D\GraInv3D\kernel.cu" 
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(831): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(1769): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(2624): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(3462): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(4411): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(5309): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(6217): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(7097): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(7901): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt/device_functions.h(776): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt/device_functions.h(1636): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(831): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(1769): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(2624): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(3462): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(4411): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(5309): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(6217): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(7097): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(7901): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt/device_functions.h(776): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt/device_functions.h(1636): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         kernel.cu
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(548): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(549): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(573): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(574): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(575): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(655): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(656): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(842): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(925): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(926): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(927): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(988): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(1243): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(1244): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(1269): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(1270): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(1276): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(1288): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(1312): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(1313): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(1319): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(1331): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(1533): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>C:/Users/Administrator/Desktop/GraInv3D/GraInv3D/kernel.cu(1560): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(831): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(1769): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(2624): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(3462): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(4411): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(5309): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(6217): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(7097): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(7901): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>已完成生成项目“C:\Users\Administrator\Desktop\GraInv3D\GraInv3D\GraInv3D.vcxproj”(CudaBuildCore 个目标)的操作。
+     1>Link:
+         D:\programyuan\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\GraInv3D\x64\Debug\GraInv3D.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\lib\x64" cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Desktop\GraInv3D\x64\Debug\GraInv3D.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\GraInv3D\x64\Debug\GraInv3D.lib" /MACHINE:X64 x64\Debug\kernel.cu.obj
+         GraInv3D.vcxproj -> C:\Users\Administrator\Desktop\GraInv3D\x64\Debug\GraInv3D.exe
+     1>已完成生成项目“C:\Users\Administrator\Desktop\GraInv3D\GraInv3D\GraInv3D.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.62
